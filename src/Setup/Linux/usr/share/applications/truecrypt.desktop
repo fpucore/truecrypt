@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=TrueCrypt
+GenericName=TrueCrypt volume manager
+Comment=Create and mount TrueCrypt encrypted volumes
+Icon=veracrypt
+Exec=/usr/bin/truecrypt %f
+Categories=Security;Utility;Filesystem
+Keywords=encryption,filesystem
+Terminal=false
+MimeType=application/x-veracrypt-volume;application/x-truecrypt-volume;
