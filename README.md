@@ -1,4 +1,4 @@
-# TrueCrypt v8.0.0
+# ![TrueCrypt logo](assets/truecrypt.png) TrueCrypt v8.0.0
 
 This archive contains the source code of TrueCrypt — a Linux-only, auditable
 revival of the original.
