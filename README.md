@@ -3,6 +3,12 @@
 This archive contains the source code of TrueCrypt — a Linux-only, auditable
 revival of the original.
 
+![TrueCrypt sample 1](assets/truecrypt_1.webp)
+
+![TrueCrypt sample 2](assets/truecrypt_2.webp)
+
+![TrueCrypt sample 3](assets/truecrypt_3.webp)
+
 This project serves as a homage to the original TrueCrypt, and as the launchpad
 for its modern open-source revival.
 
