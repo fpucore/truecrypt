@@ -124,13 +124,21 @@ A TUI-only executable binary can be compiled using the 'NOGUI' build flag:
 
 `> make NOGUI=1`
 
-## Installing on Linux
+## Compile
+
+`> cd src/`
 
 `> make`
 
+or
+
+`> make -j"$(nproc)"`
+
+## Install
+
 `> sudo make install`
 
-### Execute TrueCrypt
+### Execute
 
 `> truecrypt`
 
