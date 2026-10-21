@@ -180,11 +180,11 @@ determine the identity/identities of the original TrueCrypt developer(s) has
 provided no affirmative persons to be contacted to discuss licensing and trademark 
 matters.
 
-[1]The trademark for the name "TRUECRYPT" was registered by David Tesarik of the 
+[1] The trademark for the name "TRUECRYPT" was registered by David Tesarik of the 
 Czech Republic, for TrueCrypt Developers Association, LC, and was applicable in 
 the US from February 13, 2007 and terminated on September 15, 2017.
 
-[2]The trademark for the name "TRUECRYPT" was registered by TrueCrypt Developers 
+[2] The trademark for the name "TRUECRYPT" was registered by TrueCrypt Developers 
 Association, LC, and was applicable in the UK, China, Germany, France and Russian 
 Federation from May 16, 2007 and expired on May 16, 2017.
 
@@ -197,4 +197,5 @@ Platform Systems and seek remediation.
 Website: https://www.freedompublishersunion.net
 
 [1] [Source](legal/GBD-US502006078860644.pdf)
+
 [2] [Source](legal/GBD-WO500000000925625.pdf)
