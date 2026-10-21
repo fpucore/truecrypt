@@ -1,4 +1,4 @@
-# TrueCrypt® v8.0.0
+# TrueCrypt v8.0.0
 
 This archive contains the source code of TrueCrypt — a Linux-only, auditable
 revival of the original.
@@ -159,15 +159,16 @@ the respective parts of the source code.
 ## Trademark Information
 
 Any trademarks contained in the source code, binaries, artwork, and/or in the
-documentation, are the sole property of their respective owners.
+documentation, are the sole property of their respective owners where such 
+have the legal right to claim ownership.
 
-Harmonious Platform Systems respects the original development efforts of 
+Harmonious Platform Systems respects the original development efforts of all 
 current and previous contributors.
 
 At no time, now or in the future, will Harmonious Platform Systems claim 
 ownership of the 'TrueCrypt' name in any distributed source code, binaries, 
 artwork, and/or in the documentation bearing our 'Harmonious Platform Systems' 
-paired with 'TrueCrypt'.
+when paired with 'TrueCrypt'.
 
 We understand the conditions of the original license terms disseminated with 
 the original TrueCrypt (now defunct) and the current VeraCrypt development 
@@ -179,6 +180,14 @@ determine the identity/identities of the original TrueCrypt developer(s) has
 provided no affirmative persons to be contacted to discuss licensing and trademark 
 matters.
 
+[1]The trademark for the name "TRUECRYPT" was registered by David Tesarik of the 
+Czech Republic, for TrueCrypt Developers Association, LC, and was applicable in 
+the US from February 13, 2007 and terminated on September 15, 2017.
+
+[2]The trademark for the name "TRUECRYPT" was registered by TrueCrypt Developers 
+Association, LC, and was applicable in the UK, China, Germany, France and Russian 
+Federation from May 16, 2007 and expired on May 16, 2017.
+
 If the original developer(s) of TrueCrypt (as of version 7.1a) believe this 
 program is a violation of their rights, we encourage them to contact Harmonious 
 Platform Systems and seek remediation.
@@ -187,3 +196,5 @@ Platform Systems and seek remediation.
 
 Website: https://www.freedompublishersunion.net
 
+[1] [Source](legal/GBD-US502006078860644.pdf)
+[2] [Source](legal/GBD-WO500000000925625.pdf)
