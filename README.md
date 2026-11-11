@@ -40,9 +40,9 @@ license text.
 
 ### ⚠️ IMPORTANT UPGRADE NOTICE for v8.0.0 Users
 
--Unmount all volumes before upgrading as attempting to upgrade while volumes are 
+*Unmount all volumes before upgrading as attempting to upgrade while volumes are 
 mounted may result in orphaned mount points that require manual intervention and 
-cleanup.-
+cleanup.*
 
 `> sudo truecrypt -d    # or sudo veracrypt -d`
 
