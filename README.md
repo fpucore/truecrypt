@@ -31,7 +31,7 @@ been changed to reflect TrueCrypt. Volumes now mount to /run/media/truecrypt<N>,
 - **Version Metadata Alignment**: Internal and external version identifiers have 
 been aligned to 8.1.0 (Hex: 0x0810).
 - **Streamlined Menu**: Removed bloat, inc. 'Donate' and 'Contact' menu items. 
-The Help menu now contains only 'Website', 'Legal' Notices, and 'About' for a 
+The Help menu now contains only 'Website', 'Legal Notices', and 'About' for a 
 cleaner UI.
 - **Updated Website Pointer**: The 'Website' button now points to the UDI 
 <https://www.freedompublishersunion.net>
@@ -40,9 +40,9 @@ license text.
 
 ### ⚠️ IMPORTANT UPGRADE NOTICE for v8.0.0 Users
 
-Unmount all volumes before upgrading as attempting to upgrade while volumes are 
+--Unmount all volumes before upgrading as attempting to upgrade while volumes are 
 mounted may result in orphaned mount points that require manual intervention and 
-cleanup.
+cleanup.--
 
 `> sudo truecrypt -d    # or sudo veracrypt -d`
 
