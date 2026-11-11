@@ -210,7 +210,6 @@
     <entry lang="sv" key="IDM_CHANGE_SYS_PASSWORD">Ändra lösenord…</entry>
     <entry lang="sv" key="IDM_CLEAR_HISTORY">Rensa volymhistorik</entry>
     <entry lang="sv" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Stäng alla säkerhetstokensessioner</entry>
-    <entry lang="sv" key="IDM_CONTACT">Kontakt</entry>
     <entry lang="sv" key="IDM_CREATE_HIDDEN_OS">Skapa dolt operativsystem…</entry>
     <entry lang="sv" key="IDM_CREATE_RESCUE_DISK">Skapa återställningsdisk…</entry>
     <entry lang="sv" key="IDM_CREATE_VOLUME">Skapa ny volym…</entry>
@@ -263,7 +262,7 @@
     <entry lang="sv" key="IDM_VOLUME_EXPANDER">Volymutökare</entry>
     <entry lang="sv" key="IDM_VOLUME_PROPERTIES">Volymegenskaper</entry>
     <entry lang="sv" key="IDM_VOLUME_WIZARD">Guiden Skapa volym</entry>
-    <entry lang="sv" key="IDM_WEBSITE">VeraCrypts webbplats</entry>
+    <entry lang="sv" key="IDM_WEBSITE">Website</entry>
     <entry lang="sv" key="IDM_WIPE_CACHE">Rensa cachelagrade lösenord</entry>
     <entry lang="sv" key="IDOK">OK</entry>
     <entry lang="sv" key="IDT_ACCELERATION_OPTIONS">Hårdvaruacceleration</entry>

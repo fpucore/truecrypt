@@ -1,4 +1,4 @@
-# ![TrueCrypt logo](assets/truecrypt.png) TrueCrypt v8.0.0
+# ![TrueCrypt logo](assets/truecrypt.png) TrueCrypt v8.1.0
 
 This archive contains the source code of TrueCrypt — a Linux-only, auditable
 revival of the original.
@@ -10,7 +10,7 @@ revival of the original.
 ![TrueCrypt sample 3](assets/truecrypt_3.webp)
 
 This project serves as a homage to the original TrueCrypt, and as the launchpad
-for its modern open-source revival.
+for its modern open-source truthful revival.
 
 It is built from the latest VeraCrypt source code, descends from the original
 TrueCrypt 7.1a, and inherits VeraCrypt's security enhancements and modifications
@@ -23,6 +23,29 @@ on Linux.
 
 See [Why this project exists](#why-this-project-exists) below.
 
+## What's new in v8.1.0
+
+- **Mount Path Alignment**: Default mount points and device-mapper names have 
+been changed to reflect TrueCrypt. Volumes now mount to /run/media/truecrypt<N>, 
+/dev/mapper/truecrypt<N>, and use .truecrypt_aux_mnt for FUSE operations.
+- **Version Metadata Alignment**: Internal and external version identifiers have 
+been aligned to 8.1.0 (Hex: 0x0810).
+- **Streamlined Menu**: Removed bloat, inc. 'Donate' and 'Contact' menu items. 
+The Help menu now contains only 'Website', 'Legal' Notices, and 'About' for a 
+cleaner UI.
+- **Updated Website Pointer**: The 'Website' button now points to the UDI 
+<https://www.freedompublishersunion.net>
+- **Updated Legal Notices**: The 'Legal Notices' button now displays TrueCrypt 
+license text.
+
+### ⚠️ IMPORTANT UPGRADE NOTICE for v8.0.0 Users
+
+Unmount all volumes before upgrading as attempting to upgrade while volumes are 
+mounted may result in orphaned mount points that require manual intervention and 
+cleanup.
+
+`> sudo truecrypt -d    # or sudo veracrypt -d`
+
 ## Why this project exists
 
 TrueCrypt ended in 2014. VeraCrypt adopted the source and kept it alive, and in
@@ -31,7 +54,7 @@ original ambition: one codebase for Windows, macOS and Linux, complete with a
 Windows bootloader, system-partition encryption, platform drivers and a
 cross-platform GUI toolkit.
 
-This project takes the opposite bet. It is a Linux-only descendant of that
+This project takes the opposite path. It is a Linux-only descendant of that
 lineage — TrueCrypt 7.1a → VeraCrypt → **TrueCrypt v8.0.0** — with the
 cross-platform scaffolding stripped out and the volume-encryption core kept.
 

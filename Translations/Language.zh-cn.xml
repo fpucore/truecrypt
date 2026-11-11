@@ -211,7 +211,6 @@
     <entry lang="zh-cn" key="IDM_CHANGE_SYS_PASSWORD">修改密码...</entry>
     <entry lang="zh-cn" key="IDM_CLEAR_HISTORY">清除加密卷历史记录</entry>
     <entry lang="zh-cn" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">关闭所有安全口令牌会话</entry>
-    <entry lang="zh-cn" key="IDM_CONTACT">联系作者（联网）...</entry>
     <entry lang="zh-cn" key="IDM_CREATE_HIDDEN_OS">创建隐形操作系统...</entry>
     <entry lang="zh-cn" key="IDM_CREATE_RESCUE_DISK">创建应急盘...</entry>
     <entry lang="zh-cn" key="IDM_CREATE_VOLUME">创建加密卷...</entry>
@@ -264,7 +263,7 @@
     <entry lang="zh-cn" key="IDM_VOLUME_EXPANDER">加密卷扩展向导</entry>
     <entry lang="zh-cn" key="IDM_VOLUME_PROPERTIES">加密卷属性</entry>
     <entry lang="zh-cn" key="IDM_VOLUME_WIZARD">加密卷创建向导</entry>
-    <entry lang="zh-cn" key="IDM_WEBSITE">官方网站（联网）</entry>
+    <entry lang="zh-cn" key="IDM_WEBSITE">Website</entry>
     <entry lang="zh-cn" key="IDM_WIPE_CACHE">擦除缓存的密码</entry>
     <entry lang="zh-cn" key="IDOK">确定</entry>
     <entry lang="zh-cn" key="IDT_ACCELERATION_OPTIONS">硬件加速</entry>

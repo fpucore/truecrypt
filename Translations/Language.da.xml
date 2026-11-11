@@ -210,7 +210,6 @@
     <entry lang="da" key="IDM_CHANGE_SYS_PASSWORD">Ændre Kodeord...</entry>
     <entry lang="da" key="IDM_CLEAR_HISTORY">Slet Bind Historie</entry>
     <entry lang="da" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Luk alle sikkerhedstokensessioner</entry>
-    <entry lang="da" key="IDM_CONTACT">Kontakt...</entry>
     <entry lang="da" key="IDM_CREATE_HIDDEN_OS">Opret Skjult Operativsystem...</entry>
     <entry lang="da" key="IDM_CREATE_RESCUE_DISK">Opret Nødhjælps Disk...</entry>
     <entry lang="da" key="IDM_CREATE_VOLUME">Opret nyt Bind...</entry>
@@ -263,7 +262,7 @@
     <entry lang="da" key="IDM_VOLUME_EXPANDER">Volumenudvider</entry>
     <entry lang="da" key="IDM_VOLUME_PROPERTIES">Bind Egenskaber</entry>
     <entry lang="da" key="IDM_VOLUME_WIZARD">Bind Oprettelsesguide</entry>
-    <entry lang="da" key="IDM_WEBSITE">VeraCrypt Hjemmeside</entry>
+    <entry lang="da" key="IDM_WEBSITE">Website</entry>
     <entry lang="da" key="IDM_WIPE_CACHE">Slet kodeord i hukommelsen</entry>
     <entry lang="da" key="IDOK">OK</entry>
     <entry lang="da" key="IDT_ACCELERATION_OPTIONS">Hardwareacceleration</entry>

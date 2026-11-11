@@ -66,7 +66,7 @@ namespace VeraCrypt
 #endif
 		virtual bool FilesystemSupportsUnixPermissions (const DevicePath &devicePath) const;
 		virtual string GetDefaultMountPointPrefix () const;
-		virtual string GetFuseMountDirPrefix () const { return ".veracrypt_aux_mnt"; }
+		virtual string GetFuseMountDirPrefix () const { return ".truecrypt_aux_mnt"; }
 		virtual MountedFilesystemList GetMountedFilesystems (const DevicePath &devicePath = DevicePath(), const DirectoryPath &mountPoint = DirectoryPath()) const = 0;
 		virtual uid_t GetRealUserId () const;
 		virtual gid_t GetRealGroupId () const;

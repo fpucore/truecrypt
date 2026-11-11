@@ -210,7 +210,6 @@
     <entry lang="lv" key="IDM_CHANGE_SYS_PASSWORD">Mainīt paroli...</entry>
     <entry lang="lv" key="IDM_CLEAR_HISTORY">Dzēst apgabala vēsturi</entry>
     <entry lang="lv" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Aizveriet visas drošības marķiera sesijas</entry>
-    <entry lang="lv" key="IDM_CONTACT">Kontakti...</entry>
     <entry lang="lv" key="IDM_CREATE_HIDDEN_OS">Izveidot slēpto operētājsistēmu...</entry>
     <entry lang="lv" key="IDM_CREATE_RESCUE_DISK">Izveidot glābšanas disku...</entry>
     <entry lang="lv" key="IDM_CREATE_VOLUME">Izveidot jaunu apgabalu...</entry>
@@ -263,7 +262,7 @@
     <entry lang="lv" key="IDM_VOLUME_EXPANDER">Sējuma paplašinātājs</entry>
     <entry lang="lv" key="IDM_VOLUME_PROPERTIES">Apgabala īpšības</entry>
     <entry lang="lv" key="IDM_VOLUME_WIZARD">Apgabala izveidošanas vednis</entry>
-    <entry lang="lv" key="IDM_WEBSITE">VeraCrypt mājaslapa</entry>
+    <entry lang="lv" key="IDM_WEBSITE">Website</entry>
     <entry lang="lv" key="IDM_WIPE_CACHE">Iznīcināt paroles no kešatmiņas</entry>
     <entry lang="lv" key="IDOK">Labi</entry>
     <entry lang="lv" key="IDT_ACCELERATION_OPTIONS">Aparatūras paātrinājums</entry>

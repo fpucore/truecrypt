@@ -9773,11 +9773,6 @@ BOOL CALLBACK MainDialogProc (HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPa
 			Applink ("history");
 			return 1;
 		}
-		else if (lw == IDM_CONTACT)
-		{
-			Applink ("contact");
-			return 1;
-		}
 
 		if (lw == IDM_PREFERENCES)
 		{

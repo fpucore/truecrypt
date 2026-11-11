@@ -157,53 +157,16 @@ MainFrameBase::MainFrameBase( wxWindow* parent, wxWindowID id, const wxString& t
 	MainMenuBar->Append( SettingsMenu, _("MENU_SETTINGS") );
 
 	HelpMenu = new wxMenu();
-	wxMenuItem* UserGuideMenuItem;
-	UserGuideMenuItem = new wxMenuItem( HelpMenu, wxID_HELP, wxString( _("IDM_HELP") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( UserGuideMenuItem );
-
-	wxMenuItem* OnlineHelpMenuItem;
-	OnlineHelpMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_ONLINE_HELP") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( OnlineHelpMenuItem );
-
-	wxMenuItem* BeginnersTutorialMenuItem;
-	BeginnersTutorialMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_ONLINE_TUTORIAL") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( BeginnersTutorialMenuItem );
-
-	wxMenuItem* FaqMenuItem;
-	FaqMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_FAQ") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( FaqMenuItem );
-
-	HelpMenu->AppendSeparator();
 
 	wxMenuItem* WebsiteMenuItem;
 	WebsiteMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_WEBSITE") ) , wxEmptyString, wxITEM_NORMAL );
 	HelpMenu->Append( WebsiteMenuItem );
 
-	wxMenuItem* DownloadsMenuItem;
-	DownloadsMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_TC_DOWNLOADS") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( DownloadsMenuItem );
-
-	wxMenuItem* NewsMenuItem;
-	NewsMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_NEWS") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( NewsMenuItem );
-
-	wxMenuItem* VersionHistoryMenuItem;
-	VersionHistoryMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_VERSION_HISTORY") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( VersionHistoryMenuItem );
-
-	HelpMenu->AppendSeparator();
-
-	wxMenuItem* DonateMenuItem;
-	DonateMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_DONATE") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( DonateMenuItem );
-
-	wxMenuItem* ContactMenuItem;
-	ContactMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_CONTACT") ) , wxEmptyString, wxITEM_NORMAL );
-	HelpMenu->Append( ContactMenuItem );
-
 	wxMenuItem* LegalNoticesMenuItem;
 	LegalNoticesMenuItem = new wxMenuItem( HelpMenu, wxID_ANY, wxString( _("IDM_LICENSE") ) , wxEmptyString, wxITEM_NORMAL );
 	HelpMenu->Append( LegalNoticesMenuItem );
+
+	HelpMenu->AppendSeparator();
 
 	wxMenuItem* AboutMenuItem;
 	AboutMenuItem = new wxMenuItem( HelpMenu, wxID_ABOUT, wxString( _("ABOUTBOX") ) , wxEmptyString, wxITEM_NORMAL );
@@ -448,17 +411,8 @@ MainFrameBase::MainFrameBase( wxWindow* parent, wxWindowID id, const wxString& t
 	this->Connect( UserGuideMenuItem->GetId(), wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnUserGuideMenuItemSelected ) );
 #else
 	SettingsMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnPreferencesMenuItemSelected ), this, PreferencesMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnUserGuideMenuItemSelected ), this, UserGuideMenuItem->GetId());
 #endif
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnOnlineHelpMenuItemSelected ), this, OnlineHelpMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnBeginnersTutorialMenuItemSelected ), this, BeginnersTutorialMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnFaqMenuItemSelected ), this, FaqMenuItem->GetId());
 	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnWebsiteMenuItemSelected ), this, WebsiteMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnDownloadsMenuItemSelected ), this, DownloadsMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnNewsMenuItemSelected ), this, NewsMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnVersionHistoryMenuItemSelected ), this, VersionHistoryMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnDonateMenuItemSelected ), this, DonateMenuItem->GetId());
-	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnContactMenuItemSelected ), this, ContactMenuItem->GetId());
 	HelpMenu->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnLegalNoticesMenuItemSelected ), this, LegalNoticesMenuItem->GetId());
 #ifdef TC_MACOSX
 	this->Connect( AboutMenuItem->GetId(), wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MainFrameBase::OnAboutMenuItemSelected ) );

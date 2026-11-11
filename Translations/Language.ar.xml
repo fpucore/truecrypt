@@ -210,7 +210,6 @@
     <entry lang="ar" key="IDM_CHANGE_SYS_PASSWORD">‮غيّر كلمة السر…</entry>
     <entry lang="ar" key="IDM_CLEAR_HISTORY">‮احذف تأريخ المجلدات</entry>
     <entry lang="ar" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">‮أنهِ جلسات كل الأمارات</entry>
-    <entry lang="ar" key="IDM_CONTACT">‮التواصل…</entry>
     <entry lang="ar" key="IDM_CREATE_HIDDEN_OS">‮أنشئ نظام تشغيل مخفي…</entry>
     <entry lang="ar" key="IDM_CREATE_RESCUE_DISK">‮أنشئ قرص إنقاذ…</entry>
     <entry lang="ar" key="IDM_CREATE_VOLUME">‮أنشئ مجلدا جديدا…</entry>
@@ -263,7 +262,7 @@
     <entry lang="ar" key="IDM_VOLUME_EXPANDER">توسعة المجلد</entry>
     <entry lang="ar" key="IDM_VOLUME_PROPERTIES">‮خصائص المجلد</entry>
     <entry lang="ar" key="IDM_VOLUME_WIZARD">‮مرشد إنشاء المجلدات</entry>
-    <entry lang="ar" key="IDM_WEBSITE">‮موقع ڤيراكربت على الوب</entry>
+    <entry lang="ar" key="IDM_WEBSITE">Website</entry>
     <entry lang="ar" key="IDM_WIPE_CACHE">‮امحُ كلمات السر المخزنة مؤقتا</entry>
     <entry lang="ar" key="IDOK">‮موافق</entry>
     <entry lang="ar" key="IDT_ACCELERATION_OPTIONS">تسريع العتاد</entry>

@@ -210,7 +210,6 @@
     <entry lang="el" key="IDM_CHANGE_SYS_PASSWORD">Αλλαγή κωδικού...</entry>
     <entry lang="el" key="IDM_CLEAR_HISTORY">Διαγραφή ιστορικού τόμου</entry>
     <entry lang="el" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Κλείστε όλες τις περιόδους λειτουργίας διακριτικού ασφαλείας</entry>
-    <entry lang="el" key="IDM_CONTACT">Επικοινωνία...</entry>
     <entry lang="el" key="IDM_CREATE_HIDDEN_OS">Δημιουργία κρυφού λειτουργικού συστήματος...</entry>
     <entry lang="el" key="IDM_CREATE_RESCUE_DISK">Δημιουργία Δίσκου Ασφαλείας...</entry>
     <entry lang="el" key="IDM_CREATE_VOLUME">Δημιουργία νέου τόμου...</entry>
@@ -263,7 +262,7 @@
     <entry lang="el" key="IDM_VOLUME_EXPANDER">Εργαλείο επέκτασης τόμου</entry>
     <entry lang="el" key="IDM_VOLUME_PROPERTIES">Ιδιότητες τόμου</entry>
     <entry lang="el" key="IDM_VOLUME_WIZARD">Οδηγός δημιουργίας τόμου</entry>
-    <entry lang="el" key="IDM_WEBSITE">Ιστοτόπος VeraCrypt</entry>
+    <entry lang="el" key="IDM_WEBSITE">Website</entry>
     <entry lang="el" key="IDM_WIPE_CACHE">Διαγραφή κωδικών από μνήμη</entry>
     <entry lang="el" key="IDOK">OK</entry>
     <entry lang="el" key="IDT_ACCELERATION_OPTIONS">Επιτάχυνση υλικού</entry>

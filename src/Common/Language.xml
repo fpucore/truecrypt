@@ -10,7 +10,6 @@
     <entry lang="en" key="IDC_ALL_USERS">Install &amp;for all users</entry>
     <entry lang="en" key="IDC_BROWSE">Bro&amp;wse...</entry>
     <entry lang="en" key="IDC_DESKTOP_ICON">Add TrueCrypt icon to &amp;desktop</entry>
-    <entry lang="en" key="IDC_DONATE">Donate now...</entry>
     <entry lang="en" key="IDC_FILE_TYPE">Associate the .hc file &amp;extension with TrueCrypt</entry>
     <entry lang="en" key="IDC_OPEN_CONTAINING_FOLDER">&amp;Open the destination location when finished</entry>
     <entry lang="en" key="IDC_PROG_GROUP">Add TrueCrypt to &amp;Start menu</entry>
@@ -210,14 +209,12 @@
     <entry lang="en" key="IDM_CHANGE_SYS_PASSWORD">Change Password...</entry>
     <entry lang="en" key="IDM_CLEAR_HISTORY">Clear Volume History</entry>
     <entry lang="en" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Close All Security Token Sessions</entry>
-    <entry lang="en" key="IDM_CONTACT">Contact</entry>
     <entry lang="en" key="IDM_CREATE_HIDDEN_OS">Create Hidden Operating System...</entry>
     <entry lang="en" key="IDM_CREATE_RESCUE_DISK">Create Rescue Disk...</entry>
     <entry lang="en" key="IDM_CREATE_VOLUME">Create New Volume...</entry>
     <entry lang="en" key="IDM_DECRYPT_NONSYS_VOL">Permanently Decrypt...</entry>
     <entry lang="en" key="IDM_DEFAULT_KEYFILES">Default Keyfiles...</entry>
     <entry lang="en" key="IDM_DEFAULT_MOUNT_PARAMETERS">Default Mount Parameters...</entry>
-    <entry lang="en" key="IDM_DONATE">Donate now...</entry>
     <entry lang="en" key="IDM_ENCRYPT_SYSTEM_DEVICE">Encrypt System Partition/Drive...</entry>
     <entry lang="en" key="IDM_FAQ">Frequently Asked Questions</entry>
     <entry lang="en" key="IDM_HELP">User's Guide</entry>
@@ -263,7 +260,7 @@
     <entry lang="en" key="IDM_VOLUME_EXPANDER">Volume Expander</entry>
     <entry lang="en" key="IDM_VOLUME_PROPERTIES">Volume Properties</entry>
     <entry lang="en" key="IDM_VOLUME_WIZARD">Volume Creation Wizard</entry>
-    <entry lang="en" key="IDM_WEBSITE">TrueCrypt Website</entry>
+    <entry lang="en" key="IDM_WEBSITE">Website</entry>
     <entry lang="en" key="IDM_WIPE_CACHE">Wipe Cached Passwords</entry>
     <entry lang="en" key="IDOK">OK</entry>
     <entry lang="en" key="IDT_ACCELERATION_OPTIONS">Hardware Acceleration</entry>

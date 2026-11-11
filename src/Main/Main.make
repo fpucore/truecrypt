@@ -138,29 +138,29 @@ GUI_CONDITION := $(filter gui,$(INSTALLER_TYPE))
 GTK2_CONDITION := $(filter 2,$(GTK_VERSION))
 
 ifeq "$(origin NOSSE2)" "command line"
-INTERNAL_INSTALLER_NAME := veracrypt_install_$(INSTALLER_TYPE)_$(CPU_ARCH)_legacy.sh
+INTERNAL_INSTALLER_NAME := truecrypt_install_$(INSTALLER_TYPE)_$(CPU_ARCH)_legacy.sh
 
 ifneq (,$(GUI_CONDITION))
 ifneq (,$(GTK2_CONDITION))
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-setup-gtk2-gui-$(CPU_ARCH)-legacy
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-setup-gtk2-gui-$(CPU_ARCH)-legacy
 else
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)-legacy
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)-legacy
 endif
 else
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)-legacy
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)-legacy
 endif
 
 else
-INTERNAL_INSTALLER_NAME := veracrypt_install_$(INSTALLER_TYPE)_$(CPU_ARCH).sh
+INTERNAL_INSTALLER_NAME := truecrypt_install_$(INSTALLER_TYPE)_$(CPU_ARCH).sh
 
 ifneq (,$(GUI_CONDITION))
 ifneq (,$(GTK2_CONDITION))
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-setup-gtk2-gui-$(CPU_ARCH)
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-setup-gtk2-gui-$(CPU_ARCH)
 else
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
 endif
 else
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
 endif
 
 endif
@@ -172,16 +172,16 @@ endif
 GUI_CONDITION := $(filter gui,$(INSTALLER_TYPE))
 GTK2_CONDITION := $(filter 2,$(GTK_VERSION))
 
-INTERNAL_INSTALLER_NAME := veracrypt_install_$(SYSTEMNAME)_$(INSTALLER_TYPE)_$(CPU_ARCH).sh
+INTERNAL_INSTALLER_NAME := truecrypt_install_$(SYSTEMNAME)_$(INSTALLER_TYPE)_$(CPU_ARCH).sh
 
 ifneq (,$(GUI_CONDITION))
 ifneq (,$(GTK2_CONDITION))
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-$(SYSTEMNAME)-setup-gtk2-gui-$(CPU_ARCH)
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-$(SYSTEMNAME)-setup-gtk2-gui-$(CPU_ARCH)
 else
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-$(SYSTEMNAME)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-$(SYSTEMNAME)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
 endif
 else
-INSTALLER_NAME := veracrypt-$(TC_VERSION)-$(SYSTEMNAME)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
+INSTALLER_NAME := truecrypt-$(TC_VERSION)-$(SYSTEMNAME)-setup-$(INSTALLER_TYPE)-$(CPU_ARCH)
 endif
 
 #-----------------------------------
@@ -309,8 +309,8 @@ ifneq "$(INSTALL_DOCS)" "0"
 	cp -R $(BASE_DIR)/../doc/html/* "$(BASE_DIR)/Setup/Linux/usr/share/doc/$(APPNAME)/HTML"
 endif
 ifneq "$(INSTALL_LANGUAGES)" "0"
-	mkdir -p $(BASE_DIR)/Setup/Linux/usr/share/veracrypt/languages
-	cp -r $(BASE_DIR)/../Translations/* $(BASE_DIR)/Setup/Linux/usr/share/veracrypt/languages/
+	mkdir -p $(BASE_DIR)/Setup/Linux/usr/share/truecrypt/languages
+	cp -r $(BASE_DIR)/../Translations/* $(BASE_DIR)/Setup/Linux/usr/share/truecrypt/languages/
 endif
 
 ifneq "$(INSTALL_MOUNT_HELPER)" "0"
@@ -340,11 +340,12 @@ ifneq "$(INSTALL_ICONS)" "0"
 endif
 
 ifneq "$(INSTALL_APPIMAGE_FILES)" "0"
-	rm -fr $(BASE_DIR)/Setup/Linux/veracrypt.AppDir/usr
-	cp -r $(BASE_DIR)/Setup/Linux/usr $(BASE_DIR)/Setup/Linux/veracrypt.AppDir/.
+	rm -fr $(BASE_DIR)/Setup/Linux/truecrypt.AppDir/usr
+	mkdir -p $(BASE_DIR)/Setup/Linux/truecrypt.AppDir
+	cp -r $(BASE_DIR)/Setup/Linux/usr $(BASE_DIR)/Setup/Linux/truecrypt.AppDir/.
 ifneq "$(APPIMAGE_BUNDLE_FUSE)" "0"
 	@set -e; \
-	_appdir="$(BASE_DIR)/Setup/Linux/veracrypt.AppDir"; \
+	_appdir="$(BASE_DIR)/Setup/Linux/truecrypt.AppDir"; \
 	_fuse_soname=""; \
 	_fuse_lib=""; \
 	_fuse_link_name=""; \
@@ -449,7 +450,7 @@ ifneq "$(APPIMAGE_BUNDLE_FUSE)" "0"
 	fi
 endif
 ifneq "$(INSTALL_ICONS)" "0"
-	ln -sf usr/share/icons/hicolor/1024x1024/apps/$(APPNAME).png $(BASE_DIR)/Setup/Linux/veracrypt.AppDir/$(APPNAME).png
+	ln -sf usr/share/icons/hicolor/1024x1024/apps/$(APPNAME).png $(BASE_DIR)/Setup/Linux/truecrypt.AppDir/$(APPNAME).png
 endif
 endif
 endif
@@ -460,7 +461,7 @@ endif
 	# clamped too; appimagetool honours SOURCE_DATE_EPOCH for its SquashFS
 	# metadata, and the AppDir input should not leak checkout/build mtimes.
 ifeq "$(TOUCH_REPRODUCIBLE)" "yes"
-	_appdir="$(BASE_DIR)/Setup/Linux/veracrypt.AppDir"; \
+	_appdir="$(BASE_DIR)/Setup/Linux/truecrypt.AppDir"; \
 	if [ ! -d "$$_appdir" ]; then \
 		_appdir=""; \
 	fi; \
@@ -531,11 +532,11 @@ endif
 	@echo "VERSION=$(TC_VERSION)" >> $(INTERNAL_INSTALLER_NAME)
 	@echo "PACKAGE_TYPE=tar" >> $(INTERNAL_INSTALLER_NAME)
 	@echo "PACKAGE_NAME=$(PACKAGE_NAME)" >> $(INTERNAL_INSTALLER_NAME)
-	@template_lines=$$(wc -l < $(BASE_DIR)/Setup/Linux/veracrypt_install_template.sh); \
+	@template_lines=$$(wc -l < $(BASE_DIR)/Setup/Linux/truecrypt_install_template.sh); \
 	echo "PACKAGE_START=$$(($$template_lines + 7))" >> $(INTERNAL_INSTALLER_NAME)
 	@echo "INSTALLER_TYPE=$(INSTALLER_TYPE)" >> $(INTERNAL_INSTALLER_NAME)
 
-	@cat $(BASE_DIR)/Setup/Linux/veracrypt_install_template.sh >> $(INTERNAL_INSTALLER_NAME)
+	@cat $(BASE_DIR)/Setup/Linux/truecrypt_install_template.sh >> $(INTERNAL_INSTALLER_NAME)
 	@cat $(BASE_DIR)/Setup/Linux/$(PACKAGE_NAME) >> $(INTERNAL_INSTALLER_NAME)
 	chmod +x $(INTERNAL_INSTALLER_NAME)
 
@@ -559,7 +560,7 @@ endif
 	fi; \
 	makeself "$$@" \
 		packaging "$(INSTALLER_NAME)" \
-		"VeraCrypt $(TC_VERSION) Installer" "./$(INTERNAL_INSTALLER_NAME)"
+		"TrueCrypt $(TC_VERSION) Installer" "./$(INTERNAL_INSTALLER_NAME)"
 	# makeself runs 'gzip -c9 < tmpfile' which writes tmpfile's mtime into
 	# the gzip header (SOURCE_DATE_EPOCH is ignored for redirected stdin).
 	# Zero the mtime and refresh CRCsum/MD5; installer --check still passes.
@@ -603,7 +604,7 @@ appimage: prepare
 	if [ "$(GTK_VERSION)" = "2" ]; then \
 		_final_appimage_gtk_suffix="-gtk2-legacy"; \
 	fi; \
-	_final_appimage_filename="VeraCrypt-$(TC_VERSION)$${_final_appimage_gtk_suffix}-$${_final_appimage_arch_suffix}.AppImage"; \
+	_final_appimage_filename="TrueCrypt-$(TC_VERSION)$${_final_appimage_gtk_suffix}-$${_final_appimage_arch_suffix}.AppImage"; \
 	_final_appimage_path="$(BASE_DIR)/Setup/Linux/$${_final_appimage_filename}"; \
 	\
 	echo "Preparing AppImage for $(CPU_ARCH) (using $${_appimagetool_arch_suffix})..."; \
@@ -611,7 +612,7 @@ appimage: prepare
 	wget --quiet -O "$${_appimagetool_executable_path}" "$${_appimagetool_url}"; \
 	chmod +x "$${_appimagetool_executable_path}"; \
 	echo "Creating AppImage $${_final_appimage_path}..."; \
-	ARCH="$${_final_appimage_arch_suffix}" "$${_appimagetool_executable_path}" "$(BASE_DIR)/Setup/Linux/veracrypt.AppDir" "$${_final_appimage_path}"; \
+	ARCH="$${_final_appimage_arch_suffix}" "$${_appimagetool_executable_path}" "$(BASE_DIR)/Setup/Linux/truecrypt.AppDir" "$${_final_appimage_path}"; \
 	echo "AppImage created: $${_final_appimage_path}"; \
 	echo "Cleaning up appimagetool..."; \
 	rm -f "$${_appimagetool_executable_path}";

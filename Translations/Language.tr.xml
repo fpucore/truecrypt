@@ -210,7 +210,6 @@
     <entry lang="tr" key="IDM_CHANGE_SYS_PASSWORD">Parolayı değiştir...</entry>
     <entry lang="tr" key="IDM_CLEAR_HISTORY">Birim geçmişini temizle</entry>
     <entry lang="tr" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Tüm güvenlik kodu oturumlarını kapat</entry>
-    <entry lang="tr" key="IDM_CONTACT">İletişim</entry>
     <entry lang="tr" key="IDM_CREATE_HIDDEN_OS">Gizli işletim sistemi oluştur...</entry>
     <entry lang="tr" key="IDM_CREATE_RESCUE_DISK">Kurtarma diski oluştur...</entry>
     <entry lang="tr" key="IDM_CREATE_VOLUME">Yeni birim oluştur...</entry>
@@ -263,7 +262,7 @@
     <entry lang="tr" key="IDM_VOLUME_EXPANDER">Birim genişletici</entry>
     <entry lang="tr" key="IDM_VOLUME_PROPERTIES">Birim özellikleri</entry>
     <entry lang="tr" key="IDM_VOLUME_WIZARD">Birim oluşturma yardımcısı</entry>
-    <entry lang="tr" key="IDM_WEBSITE">VeraCrypt sitesi</entry>
+    <entry lang="tr" key="IDM_WEBSITE">Website</entry>
     <entry lang="tr" key="IDM_WIPE_CACHE">Ön bellekteki parolaları temizle</entry>
     <entry lang="tr" key="IDOK">Tamam</entry>
     <entry lang="tr" key="IDT_ACCELERATION_OPTIONS">Donanımsal hızlandırma</entry>

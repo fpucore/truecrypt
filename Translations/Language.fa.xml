@@ -210,7 +210,6 @@
     <entry lang="fa" key="IDM_CHANGE_SYS_PASSWORD">تغییر رمز عبور ...</entry>
     <entry lang="fa" key="IDM_CLEAR_HISTORY">پاک کردن تاریخچه حجم</entry>
     <entry lang="fa" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">تمام جلسات توکن امنیتی را ببندید</entry>
-    <entry lang="fa" key="IDM_CONTACT">تماس</entry>
     <entry lang="fa" key="IDM_CREATE_HIDDEN_OS">ایجاد سیستم عامل مخفی ...</entry>
     <entry lang="fa" key="IDM_CREATE_RESCUE_DISK">ایجاد دیسک نجات...</entry>
     <entry lang="fa" key="IDM_CREATE_VOLUME">ایجاد حجم جدید...</entry>
@@ -263,7 +262,7 @@
     <entry lang="fa" key="IDM_VOLUME_EXPANDER">حجم دهنده</entry>
     <entry lang="fa" key="IDM_VOLUME_PROPERTIES">ویژگی های حجمی</entry>
     <entry lang="fa" key="IDM_VOLUME_WIZARD">جادوگر ایجاد حجم</entry>
-    <entry lang="fa" key="IDM_WEBSITE">وبسایت VeraCrypt</entry>
+    <entry lang="fa" key="IDM_WEBSITE">Website</entry>
     <entry lang="fa" key="IDM_WIPE_CACHE">گذرواژه های ذخیره شده را پاک کنید</entry>
     <entry lang="fa" key="IDOK">قبول</entry>
     <entry lang="fa" key="IDT_ACCELERATION_OPTIONS">شتاب سخت افزاری</entry>

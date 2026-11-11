@@ -236,7 +236,6 @@
 #define IDM_HOTKEY_SETTINGS             40028
 #define IDM_TC_DOWNLOADS                40029
 #define IDM_NEWS                        40030
-#define IDM_CONTACT                     40031
 #define IDM_VERSION_HISTORY             40032
 #define IDM_HOMEPAGE                    40033
 #define IDM_TEST_VECTORS                40034
@@ -269,7 +268,6 @@
 #define IDM_ADD_VOLUME_TO_SYSTEM_FAVORITES 40061
 #define IDM_PERFORMANCE_SETTINGS        40062
 #define IDM_ANALYZE_SYSTEM_CRASH        40063
-#define IDM_DONATE                      40064
 #define IDM_VOLUME_EXPANDER             40065
 #define IDM_DEFAULT_MOUNT_PARAMETERS    40066
 #define IDM_DECRYPT_NONSYS_VOL          40067

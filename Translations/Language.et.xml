@@ -210,7 +210,6 @@
     <entry lang="et" key="IDM_CHANGE_SYS_PASSWORD">Muuda parooli...</entry>
     <entry lang="et" key="IDM_CLEAR_HISTORY">Puhasta konteineri ajalugu</entry>
     <entry lang="et" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Sulgege kõik turvamärgiseansid</entry>
-    <entry lang="et" key="IDM_CONTACT">Kontakt...</entry>
     <entry lang="et" key="IDM_CREATE_HIDDEN_OS">Loo peidetud operatsioonisüsteem...</entry>
     <entry lang="et" key="IDM_CREATE_RESCUE_DISK">Loo päästeketas...</entry>
     <entry lang="et" key="IDM_CREATE_VOLUME">Loo uus konteiner...</entry>
@@ -263,7 +262,7 @@
     <entry lang="et" key="IDM_VOLUME_EXPANDER">Köite laiendaja</entry>
     <entry lang="et" key="IDM_VOLUME_PROPERTIES">Konteineri atribuudid</entry>
     <entry lang="et" key="IDM_VOLUME_WIZARD">Konteineri loomise nõustaja</entry>
-    <entry lang="et" key="IDM_WEBSITE">VeraCrypti kodulehekülg</entry>
+    <entry lang="et" key="IDM_WEBSITE">Website</entry>
     <entry lang="et" key="IDM_WIPE_CACHE">Puhasta kogutud salasõnad</entry>
     <entry lang="et" key="IDOK">Olgu</entry>
     <entry lang="et" key="IDT_ACCELERATION_OPTIONS">Riistvaraline kiirendus</entry>

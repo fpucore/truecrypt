@@ -210,7 +210,6 @@
     <entry lang="ro" key="IDM_CHANGE_SYS_PASSWORD">Schimbare parolă</entry>
     <entry lang="ro" key="IDM_CLEAR_HISTORY">Golire istoric volum</entry>
     <entry lang="ro" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Închidere sesiuni dispozitiv de securitate</entry>
-    <entry lang="ro" key="IDM_CONTACT">Contact</entry>
     <entry lang="ro" key="IDM_CREATE_HIDDEN_OS">Creare sistem de operare ascuns</entry>
     <entry lang="ro" key="IDM_CREATE_RESCUE_DISK">Creare disc de recuperare</entry>
     <entry lang="ro" key="IDM_CREATE_VOLUME">Creare volum nou</entry>
@@ -263,7 +262,7 @@
     <entry lang="ro" key="IDM_VOLUME_EXPANDER">Extindere volum</entry>
     <entry lang="ro" key="IDM_VOLUME_PROPERTIES">Proprietăți volum</entry>
     <entry lang="ro" key="IDM_VOLUME_WIZARD">Asistent creare volum</entry>
-    <entry lang="ro" key="IDM_WEBSITE">Pagina web VeraCrypt</entry>
+    <entry lang="ro" key="IDM_WEBSITE">Website</entry>
     <entry lang="ro" key="IDM_WIPE_CACHE">Uitare parole memorate</entry>
     <entry lang="ro" key="IDOK">&amp;OK</entry>
     <entry lang="ro" key="IDT_ACCELERATION_OPTIONS">Accelerare hardware</entry>

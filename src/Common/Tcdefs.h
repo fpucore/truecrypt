@@ -58,8 +58,8 @@ extern unsigned short _rotl16(unsigned short value, unsigned char shift);
 
 #define TC_APP_NAME						"TrueCrypt"
 
-// Version displayed to user 
-#define VERSION_STRING					"8.0.0"
+// Version string for TrueCrypt build 
+#define VERSION_STRING					"8.1.0"
 
 #ifdef VC_EFI_CUSTOM_MODE
 #define VERSION_STRING_SUFFIX			"-CustomEFI"
@@ -70,12 +70,12 @@ extern unsigned short _rotl16(unsigned short value, unsigned char shift);
 #endif
 
 // Version number to compare against driver
-#define VERSION_NUM						0x0126
+#define VERSION_NUM						0x0810
 
-// Release date
+// Release date for the TrueCrypt build
 #define TC_RELEASE_DATE_YEAR			2026
-#define TC_RELEASE_DATE_MONTH			10
-#define TC_RELEASE_DATE_DAY			11
+#define TC_RELEASE_DATE_MONTH			11
+#define TC_RELEASE_DATE_DAY				11
 
 #define BYTES_PER_KB                    1024LL
 #define BYTES_PER_MB                    1048576LL

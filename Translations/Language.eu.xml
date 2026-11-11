@@ -210,7 +210,6 @@
     <entry lang="eu" key="IDM_CHANGE_SYS_PASSWORD">Pasahitza aldatu...</entry>
     <entry lang="eu" key="IDM_CLEAR_HISTORY">Bolumenen historioa ezabatu</entry>
     <entry lang="eu" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Sekurtasun Agiriko Saio Guztiak Itxi</entry>
-    <entry lang="eu" key="IDM_CONTACT">Kontaktatu...</entry>
     <entry lang="eu" key="IDM_CREATE_HIDDEN_OS">Ezkututako sistema eragilea sortu...</entry>
     <entry lang="eu" key="IDM_CREATE_RESCUE_DISK">Salbatze diska sortu...</entry>
     <entry lang="eu" key="IDM_CREATE_VOLUME">Bolumen berria sortu...</entry>
@@ -263,7 +262,7 @@
     <entry lang="eu" key="IDM_VOLUME_EXPANDER">Bolumen-zabaltzailea</entry>
     <entry lang="eu" key="IDM_VOLUME_PROPERTIES">Bolumenaren ezaugarriak</entry>
     <entry lang="eu" key="IDM_VOLUME_WIZARD">Bolumenak sortzeko laguntzailea</entry>
-    <entry lang="eu" key="IDM_WEBSITE">VeraCrypt-en web orria</entry>
+    <entry lang="eu" key="IDM_WEBSITE">Website</entry>
     <entry lang="eu" key="IDM_WIPE_CACHE">Gordetako pasahitzak ezabatu</entry>
     <entry lang="eu" key="IDOK">Ados</entry>
     <entry lang="eu" key="IDT_ACCELERATION_OPTIONS">Hardwaren Bidezko Azelerazioa</entry>

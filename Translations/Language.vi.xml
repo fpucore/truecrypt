@@ -210,7 +210,6 @@
     <entry lang="vi" key="IDM_CHANGE_SYS_PASSWORD">Đổi mật mã...</entry>
     <entry lang="vi" key="IDM_CLEAR_HISTORY">Xóa lược sử của Tập đĩa</entry>
     <entry lang="vi" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Đóng Tất cả các Phiên chạy của Hiệu bài Bảo mật</entry>
-    <entry lang="vi" key="IDM_CONTACT">Liên hệ...</entry>
     <entry lang="vi" key="IDM_CREATE_HIDDEN_OS">Cấu tạo Hệ điều hành Ẩn...</entry>
     <entry lang="vi" key="IDM_CREATE_RESCUE_DISK">Cấu tạo Đĩa Cứu hộ...</entry>
     <entry lang="vi" key="IDM_CREATE_VOLUME">Cấu tạo Tập đĩa mới...</entry>
@@ -263,7 +262,7 @@
     <entry lang="vi" key="IDM_VOLUME_EXPANDER">Bộ mở rộng tập đĩa</entry>
     <entry lang="vi" key="IDM_VOLUME_PROPERTIES">Đặc tính của Tập đĩa</entry>
     <entry lang="vi" key="IDM_VOLUME_WIZARD">Trợ giúp Cấu tạo Tập đĩa</entry>
-    <entry lang="vi" key="IDM_WEBSITE">Trang Web của VeraCrypt</entry>
+    <entry lang="vi" key="IDM_WEBSITE">Website</entry>
     <entry lang="vi" key="IDM_WIPE_CACHE">Tẩy Mật mã được Tạm trữ</entry>
     <entry lang="vi" key="IDOK">Đồng ý</entry>
     <entry lang="vi" key="IDT_ACCELERATION_OPTIONS">Tăng tốc phần cứng</entry>

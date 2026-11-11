@@ -210,7 +210,6 @@
     <entry lang="hu" key="IDM_CHANGE_SYS_PASSWORD">Jelszó módosítása...</entry>
     <entry lang="hu" key="IDM_CLEAR_HISTORY">Kötet előzmények törlése</entry>
     <entry lang="hu" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Az összes biztonsági jogkivonat munkamenet bezárása</entry>
-    <entry lang="hu" key="IDM_CONTACT">Kapcsolatfelvétel</entry>
     <entry lang="hu" key="IDM_CREATE_HIDDEN_OS">Rejtett operációs rendszer létrehozása...</entry>
     <entry lang="hu" key="IDM_CREATE_RESCUE_DISK">Helyreállító lemez létrehozása...</entry>
     <entry lang="hu" key="IDM_CREATE_VOLUME">Új kötet létrehozása...</entry>
@@ -263,7 +262,7 @@
     <entry lang="hu" key="IDM_VOLUME_EXPANDER">Kötetbővítő</entry>
     <entry lang="hu" key="IDM_VOLUME_PROPERTIES">Kötet tulajdonságai</entry>
     <entry lang="hu" key="IDM_VOLUME_WIZARD">Kötetkészítő varázsló</entry>
-    <entry lang="hu" key="IDM_WEBSITE">VeraCrypt weboldal</entry>
+    <entry lang="hu" key="IDM_WEBSITE">Website</entry>
     <entry lang="hu" key="IDM_WIPE_CACHE">Gyorsítótárazott jelszavak törlése</entry>
     <entry lang="hu" key="IDOK">OK</entry>
     <entry lang="hu" key="IDT_ACCELERATION_OPTIONS">Hardveres gyorsítás</entry>

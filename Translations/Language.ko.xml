@@ -210,7 +210,6 @@
     <entry lang="ko" key="IDM_CHANGE_SYS_PASSWORD">비밀번호 변경...</entry>
     <entry lang="ko" key="IDM_CLEAR_HISTORY">볼륨 기록 지우기</entry>
     <entry lang="ko" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">모든 보안 토큰 세션 닫기</entry>
-    <entry lang="ko" key="IDM_CONTACT">문의</entry>
     <entry lang="ko" key="IDM_CREATE_HIDDEN_OS">숨겨진 운영체제 만들기...</entry>
     <entry lang="ko" key="IDM_CREATE_RESCUE_DISK">응급복구 디스크 만들기...</entry>
     <entry lang="ko" key="IDM_CREATE_VOLUME">새 볼륨 만들기...</entry>
@@ -263,7 +262,7 @@
     <entry lang="ko" key="IDM_VOLUME_EXPANDER">볼륨 확장기</entry>
     <entry lang="ko" key="IDM_VOLUME_PROPERTIES">볼륨 속성</entry>
     <entry lang="ko" key="IDM_VOLUME_WIZARD">볼륨 만들기 마법사</entry>
-    <entry lang="ko" key="IDM_WEBSITE">VeraCrypt 웹사이트</entry>
+    <entry lang="ko" key="IDM_WEBSITE">Website</entry>
     <entry lang="ko" key="IDM_WIPE_CACHE">캐시된 비밀번호 지우기</entry>
     <entry lang="ko" key="IDOK">확인</entry>
     <entry lang="ko" key="IDT_ACCELERATION_OPTIONS">하드웨어 가속</entry>

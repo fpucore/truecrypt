@@ -210,7 +210,6 @@
     <entry lang="my" key="IDM_CHANGE_SYS_PASSWORD">စကားဝှက် ပြောင်းရန်...</entry>
     <entry lang="my" key="IDM_CLEAR_HISTORY">Volume မှတ်တမ်းကို ရှင်းလင်းရန်</entry>
     <entry lang="my" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">လုံခြုံရေး တိုကင် လုပ်ငန်းအားလုံးကို ပိတ်ရန်</entry>
-    <entry lang="my" key="IDM_CONTACT">အဆက်အသွယ်</entry>
     <entry lang="my" key="IDM_CREATE_HIDDEN_OS">လျှို့ဝှက် OS ဖန်တီးရန်...</entry>
     <entry lang="my" key="IDM_CREATE_RESCUE_DISK">ကယ်ဆယ်ရေး Disk ဖန်တီးရန်...</entry>
     <entry lang="my" key="IDM_CREATE_VOLUME">Volume အသစ် ဖန်တီးရန်...</entry>
@@ -263,7 +262,7 @@
     <entry lang="my" key="IDM_VOLUME_EXPANDER">Volume ချဲ့သည့်ကိရိယာ</entry>
     <entry lang="my" key="IDM_VOLUME_PROPERTIES">Volume ဂုဏ်အင်္ဂါရပ်များ</entry>
     <entry lang="my" key="IDM_VOLUME_WIZARD">Volume ဖန်တီးမှု အညွှန်း</entry>
-    <entry lang="my" key="IDM_WEBSITE">VeraCrypt ကွန်ရက် စာမျက်နှာ</entry>
+    <entry lang="my" key="IDM_WEBSITE">Website</entry>
     <entry lang="my" key="IDM_WIPE_CACHE">ခေတ္တမှတ်ထားသော စကားဝှက်များကို ရှင်းလင်းရန်</entry>
     <entry lang="my" key="IDOK">ကောင်းပြီ</entry>
     <entry lang="my" key="IDT_ACCELERATION_OPTIONS">Hardware စွမ်းရည်မြှင့်ခြင်း</entry>

@@ -210,7 +210,6 @@
     <entry lang="sl" key="IDM_CHANGE_SYS_PASSWORD">Spremeni geslo...</entry>
     <entry lang="sl" key="IDM_CLEAR_HISTORY">Izbriši zgodovino nosilca</entry>
     <entry lang="sl" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Zapri vse seje varnostnih žetonov</entry>
-    <entry lang="sl" key="IDM_CONTACT">Stopi v stik...</entry>
     <entry lang="sl" key="IDM_CREATE_HIDDEN_OS">Ustvari skriti operacijski sistem...</entry>
     <entry lang="sl" key="IDM_CREATE_RESCUE_DISK">Ustvari rešilni disk...</entry>
     <entry lang="sl" key="IDM_CREATE_VOLUME">Ustvari nov nosilec...</entry>
@@ -263,7 +262,7 @@
     <entry lang="sl" key="IDM_VOLUME_EXPANDER">Širitev nosilca</entry>
     <entry lang="sl" key="IDM_VOLUME_PROPERTIES">Lastnosti nosilca</entry>
     <entry lang="sl" key="IDM_VOLUME_WIZARD">Čarovnik za ustvarjanje nosilcev</entry>
-    <entry lang="sl" key="IDM_WEBSITE">VeraCryptova spletna stran</entry>
+    <entry lang="sl" key="IDM_WEBSITE">Website</entry>
     <entry lang="sl" key="IDM_WIPE_CACHE">Pobriši gesla, shranjena v predpomnilniku</entry>
     <entry lang="sl" key="IDOK">V redu</entry>
     <entry lang="sl" key="IDT_ACCELERATION_OPTIONS">Strojno pospeševanje</entry>

@@ -210,7 +210,6 @@
     <entry lang="ka" key="IDM_CHANGE_SYS_PASSWORD">პაროლის შეცვლა</entry>
     <entry lang="ka" key="IDM_CLEAR_HISTORY">ტომების ისტორიის წაშლა</entry>
     <entry lang="ka" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">დახურეთ უსაფრთხოების ნიშნების ყველა სესია</entry>
-    <entry lang="ka" key="IDM_CONTACT">კავშირი ავტორებთან</entry>
     <entry lang="ka" key="IDM_CREATE_HIDDEN_OS">შექმენით ფარული ოპერაციული სისტემა...</entry>
     <entry lang="ka" key="IDM_CREATE_RESCUE_DISK">აღმდგენი დისკის შექმნა</entry>
     <entry lang="ka" key="IDM_CREATE_VOLUME">ახალი ტომის შექმნა</entry>
@@ -263,7 +262,7 @@
     <entry lang="ka" key="IDM_VOLUME_EXPANDER">მოცულობის გამაფართოებელი</entry>
     <entry lang="ka" key="IDM_VOLUME_PROPERTIES">ტომის მახასიათებლები</entry>
     <entry lang="ka" key="IDM_VOLUME_WIZARD">ტომების შექმნის ოსტატი</entry>
-    <entry lang="ka" key="IDM_WEBSITE">VeraCrypt ვებსაიტი</entry>
+    <entry lang="ka" key="IDM_WEBSITE">Website</entry>
     <entry lang="ka" key="IDM_WIPE_CACHE">პაროლების ქეშის წაშლა</entry>
     <entry lang="ka" key="IDOK">დიახ</entry>
     <entry lang="ka" key="IDT_ACCELERATION_OPTIONS">აპარატურის აჩქარება</entry>

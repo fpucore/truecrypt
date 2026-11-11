@@ -210,7 +210,6 @@
     <entry lang="zh-tw" key="IDM_CHANGE_SYS_PASSWORD">更改密碼...</entry>
     <entry lang="zh-tw" key="IDM_CLEAR_HISTORY">清除加密區歷史記錄</entry>
     <entry lang="zh-tw" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">關閉所有安全性令牌會話</entry>
-    <entry lang="zh-tw" key="IDM_CONTACT">聯絡作者(線上)...</entry>
     <entry lang="zh-tw" key="IDM_CREATE_HIDDEN_OS">建立隱藏作業系統...</entry>
     <entry lang="zh-tw" key="IDM_CREATE_RESCUE_DISK">建立救援磁碟...</entry>
     <entry lang="zh-tw" key="IDM_CREATE_VOLUME">建立新的加密區...</entry>
@@ -263,7 +262,7 @@
     <entry lang="zh-tw" key="IDM_VOLUME_EXPANDER">加密區擴充器</entry>
     <entry lang="zh-tw" key="IDM_VOLUME_PROPERTIES">加密區內容</entry>
     <entry lang="zh-tw" key="IDM_VOLUME_WIZARD">加密區建立精靈</entry>
-    <entry lang="zh-tw" key="IDM_WEBSITE">官方網站(線上)</entry>
+    <entry lang="zh-tw" key="IDM_WEBSITE">Website</entry>
     <entry lang="zh-tw" key="IDM_WIPE_CACHE">清除快取的密碼</entry>
     <entry lang="zh-tw" key="IDOK">確定</entry>
     <entry lang="zh-tw" key="IDT_ACCELERATION_OPTIONS">硬體加速</entry>

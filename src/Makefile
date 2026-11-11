@@ -11,26 +11,26 @@
 #
 
 #------ Command line arguments ------
-# DEBUG:		Disable optimizations and enable debugging checks
-# DEBUGGER:		Enable debugging information for use by debuggers
-# NOASM:		Exclude modules requiring assembler
-# NOGUI:		Disable graphical user interface (build console-only application)
-# NOSTRIP:		Do not strip release binary
-# NOTEST:		Do not test release binary
-# RESOURCEDIR:	Run-time resource directory
-# VERBOSE:		Enable verbose messages
-# WITHFUSE3:		Build with FUSE3 support instead of FUSE2
+# DEBUG:			Disable optimizations and enable debugging checks
+# DEBUGGER:			Enable debugging information for use by debuggers
+# NOASM:			Exclude modules requiring assembler
+# NOGUI:			Disable graphical user interface (build console-only application)
+# NOSTRIP:			Do not strip release binary
+# NOTEST:			Do not test release binary
+# RESOURCEDIR:			Run-time resource directory
+# VERBOSE:			Enable verbose messages
+# WITHFUSE3:			Build with FUSE3 support instead of FUSE2
 # WX_CONFIGURE_EXTRA_FLAGS:	Extra flags passed to wxWidgets configure
-# WXSTATIC:		Use static wxWidgets library
-# SSSE3:		Enable SSSE3 support in compiler
-# SSE41:		Enable SSE4.1 support in compiler
-# NOSSE2:		Disable SEE2 support in compiler
-# WOLFCRYPT:	Build with wolfCrypt as crypto provider (see Crypto/wolfCrypt.md)
+# WXSTATIC:			Use static wxWidgets library
+# SSSE3:			Enable SSSE3 support in compiler
+# SSE41:			Enable SSE4.1 support in compiler
+# NOSSE2:			Disable SSE2 support in compiler
+# WOLFCRYPT:			Build with wolfCrypt as crypto provider (see Crypto/wolfCrypt.md)
 
 #------ Targets ------
 # all
 # clean
-# wxbuild:		Configure and build wxWidgets - source code must be located at $(WX_ROOT)
+# wxbuild:			Configure and build wxWidgets - source code must be located at $(WX_ROOT)
 
 
 #------ Build configuration ------
@@ -200,7 +200,7 @@ ifeq "$(shell uname -s)" "Linux"
 	PLATFORM := Linux
 	C_CXX_FLAGS += -DTC_UNIX -DTC_LINUX
 	LFLAGS += -rdynamic
-	
+
 	# PCSC
 	C_CXX_FLAGS += $(shell $(PKG_CONFIG) --cflags libpcsclite)
 
@@ -226,7 +226,7 @@ ifeq "$(shell uname -s)" "Linux"
 	ifeq ($(shell expr $(GCC_VERSION) \< 600), 1)
 		LFLAGS += -Wl,-z,max-page-size=4096
 	endif
-	
+
 	# Keep NOAESNI consistent with assembler object selection even with NOSSE2.
 	ifneq (,$(filter x86 x64,$(CPU_ARCH)))
 		ifeq "$(DISABLE_AESNI)" "1"
@@ -285,7 +285,7 @@ ifeq "$(shell uname -s)" "Linux"
 			WXCONFIG_CXXFLAGS += -D_GLIBCXX_USE_CXX11_ABI=0
 		endif
 	endif
-	
+
 	ifeq "$(origin NOSSE2)" "command line"
 		CFLAGS += -mno-sse2 -DCRYPTOPP_DISABLE_SHANI
 		CXXFLAGS += -mno-sse2 -DCRYPTOPP_DISABLE_SHANI
@@ -383,10 +383,10 @@ endif
 # cc-option: return $(1) if the C compiler accepts it, empty otherwise.
 cc-option = $(shell printf 'int main(void){return 0;}' | $(CC) $(1) -x c -c - -o /dev/null >/dev/null 2>&1 && echo $(1))
 
-# Normalise build paths embedded in debug info, assertions and __FILE__ so
+# Normalize build paths embedded in debug info, assertions and __FILE__ so
 # the binary does not depend on where the source tree lives. -ffile-prefix-map
 # needs GCC >= 8 / Clang >= 10; fall back to the older -fdebug-prefix-map
-# (GCC >= 4.3) which at least normalises the path recorded in debug info.
+# (GCC >= 4.3) which at least normalizes the path recorded in debug info.
 # Linux-only block. $(abspath) because -ffile-prefix-map needs an absolute prefix to match.
 ifeq "$(PLATFORM)" "Linux"
 REPRO_BASE_DIR := $(abspath $(BASE_DIR))
@@ -430,7 +430,7 @@ WX_CONFIGURE_FLAGS += --disable-protocol --disable-protocols --disable-url --dis
 	--disable-sound --disable-mediactrl --disable-joystick --disable-apple_ieee \
 	--disable-gif --disable-pcx --disable-tga --disable-iff --disable-gif --disable-pnm --disable-svg \
 	--without-expat --without-libtiff --without-libjpeg --without-libpng -without-regex --without-zlib
-	
+
 ifeq "$(PLATFORM)" "Linux"
 WX_CONFIGURE_FLAGS += --disable-tooltips
 ifneq ($(GTK_VERSION),3)

@@ -210,7 +210,6 @@
     <entry lang="ja" key="IDM_CHANGE_SYS_PASSWORD">パスワード変更...</entry>
     <entry lang="ja" key="IDM_CLEAR_HISTORY">ボリューム履歴の消去</entry>
     <entry lang="ja" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">全てのセキュリティトークンセッションを閉じる</entry>
-    <entry lang="ja" key="IDM_CONTACT">連絡先</entry>
     <entry lang="ja" key="IDM_CREATE_HIDDEN_OS">隠しOSを作成...</entry>
     <entry lang="ja" key="IDM_CREATE_RESCUE_DISK">レスキューディスク作成...</entry>
     <entry lang="ja" key="IDM_CREATE_VOLUME">新規ボリュームの作成...</entry>
@@ -263,7 +262,7 @@
     <entry lang="ja" key="IDM_VOLUME_EXPANDER">ボリューム拡張</entry>
     <entry lang="ja" key="IDM_VOLUME_PROPERTIES">ボリュームのプロパティ</entry>
     <entry lang="ja" key="IDM_VOLUME_WIZARD">ボリューム作成ウィザード</entry>
-    <entry lang="ja" key="IDM_WEBSITE">VeraCryptウェブサイト</entry>
+    <entry lang="ja" key="IDM_WEBSITE">Website</entry>
     <entry lang="ja" key="IDM_WIPE_CACHE">記憶したパスワードの消去</entry>
     <entry lang="ja" key="IDOK">OK</entry>
     <entry lang="ja" key="IDT_ACCELERATION_OPTIONS">ハードウェアによる高速化設定</entry>

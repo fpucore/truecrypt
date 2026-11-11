@@ -213,7 +213,6 @@
     <entry lang="de" key="IDM_CHANGE_SYS_PASSWORD">Passwort ändern...</entry>
     <entry lang="de" key="IDM_CLEAR_HISTORY">Volume-Ve&amp;rlauf löschen</entry>
     <entry lang="de" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Alle Sicherheitstoken-Sitzungen schließen</entry>
-    <entry lang="de" key="IDM_CONTACT">&amp;Kontakt</entry>
     <entry lang="de" key="IDM_CREATE_HIDDEN_OS">Verstecktes Betriebssystem erstellen...</entry>
     <entry lang="de" key="IDM_CREATE_RESCUE_DISK">Rettungsdatenträger erstellen...</entry>
     <entry lang="de" key="IDM_CREATE_VOLUME">&amp;Neues Volume erstellen...</entry>
@@ -266,7 +265,7 @@
     <entry lang="de" key="IDM_VOLUME_EXPANDER">Volume-Erweiterer...</entry>
     <entry lang="de" key="IDM_VOLUME_PROPERTIES">E&amp;igenschaften des VeraCrypt-Volumes</entry>
     <entry lang="de" key="IDM_VOLUME_WIZARD">VeraCrypt-Volume &amp;erstellen...</entry>
-    <entry lang="de" key="IDM_WEBSITE">VeraCrypt-&amp;Webseite</entry>
+    <entry lang="de" key="IDM_WEBSITE">Website</entry>
     <entry lang="de" key="IDM_WIPE_CACHE">&amp;Passwort-Cache sicher löschen</entry>
     <entry lang="de" key="IDOK">OK</entry>
     <entry lang="de" key="IDT_ACCELERATION_OPTIONS">Hardwarebeschleunigung</entry>

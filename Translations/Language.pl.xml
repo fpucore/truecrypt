@@ -210,7 +210,6 @@
     <entry lang="pl" key="IDM_CHANGE_SYS_PASSWORD">Zmień hasło...</entry>
     <entry lang="pl" key="IDM_CLEAR_HISTORY">Wyczyść historię wolumenu</entry>
     <entry lang="pl" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Zamknięcie wszystkich sesyjnych tokenów</entry>
-    <entry lang="pl" key="IDM_CONTACT">Kontakt...</entry>
     <entry lang="pl" key="IDM_CREATE_HIDDEN_OS">Tworzenie ukrytego systemu operacyjnego...</entry>
     <entry lang="pl" key="IDM_CREATE_RESCUE_DISK">Utwórz płytę ratunkową...</entry>
     <entry lang="pl" key="IDM_CREATE_VOLUME">Utwórz nowy wolumen...</entry>
@@ -263,7 +262,7 @@
     <entry lang="pl" key="IDM_VOLUME_EXPANDER">Rozszerzacz wolumenu</entry>
     <entry lang="pl" key="IDM_VOLUME_PROPERTIES">Właściwości wolumenu</entry>
     <entry lang="pl" key="IDM_VOLUME_WIZARD">Kreator wolumenu</entry>
-    <entry lang="pl" key="IDM_WEBSITE">Strona WWW VeraCrypt</entry>
+    <entry lang="pl" key="IDM_WEBSITE">Website</entry>
     <entry lang="pl" key="IDM_WIPE_CACHE">Wymaż przechowywane hasła</entry>
     <entry lang="pl" key="IDOK">OK</entry>
     <entry lang="pl" key="IDT_ACCELERATION_OPTIONS">Akceleracja sprzętowa</entry>

@@ -210,7 +210,6 @@
     <entry lang="nn" key="IDM_CHANGE_SYS_PASSWORD">Endre passord...</entry>
     <entry lang="nn" key="IDM_CLEAR_HISTORY">Slett Volum Historie</entry>
     <entry lang="nn" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Lukk alle sikkerhetstokenøkter</entry>
-    <entry lang="nn" key="IDM_CONTACT">Kontakt</entry>
     <entry lang="nn" key="IDM_CREATE_HIDDEN_OS">Lag skjult operativsystem...</entry>
     <entry lang="nn" key="IDM_CREATE_RESCUE_DISK">Opprett redningsdisk...</entry>
     <entry lang="nn" key="IDM_CREATE_VOLUME">Lag nytt Volum...</entry>
@@ -263,7 +262,7 @@
     <entry lang="nn" key="IDM_VOLUME_EXPANDER">Volumutvider</entry>
     <entry lang="nn" key="IDM_VOLUME_PROPERTIES">Volum Eigenskapar</entry>
     <entry lang="nn" key="IDM_VOLUME_WIZARD">Volum Oppretting Vegvisar</entry>
-    <entry lang="nn" key="IDM_WEBSITE">VeraCrypt Heimeside</entry>
+    <entry lang="nn" key="IDM_WEBSITE">Website</entry>
     <entry lang="nn" key="IDM_WIPE_CACHE">Slett snøgglagra Passord</entry>
     <entry lang="nn" key="IDOK">OK</entry>
     <entry lang="nn" key="IDT_ACCELERATION_OPTIONS">Maskinvareakselerasjon</entry>

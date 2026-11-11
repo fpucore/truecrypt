@@ -1003,7 +1003,7 @@ namespace VeraCrypt
 
 	static DirectoryPath CreateOpenBSDFFSTemporaryMountPoint ()
 	{
-		string mountPointTemplate = "/tmp/veracrypt-ffs.XXXXXXXXXX";
+		string mountPointTemplate = "/tmp/truecrypt-ffs.XXXXXXXXXX";
 		vector <char> mountPoint (mountPointTemplate.begin(), mountPointTemplate.end());
 		mountPoint.push_back ('\0');
 
@@ -1638,7 +1638,7 @@ namespace VeraCrypt
 					// if appPath is empty or not absolute, use FindSystemBinary to get the full path of veracrpyt executable
 					if (appPath.empty() || appPath[0] != '/')
 					{
-						appPath = Process::FindSystemBinary("veracrypt", errorMsg);
+						appPath = Process::FindSystemBinary("truecrypt", errorMsg);
 						if (appPath.empty())
 							throw SystemException(SRC_POS, errorMsg);
 					}

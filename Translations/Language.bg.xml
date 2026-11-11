@@ -210,7 +210,6 @@
     <entry lang="bg" key="IDM_CHANGE_SYS_PASSWORD">Смяна на паролата...</entry>
     <entry lang="bg" key="IDM_CLEAR_HISTORY">Изтриване на историята на тома</entry>
     <entry lang="bg" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Затваряне на всички сесии с токени за сигурност</entry>
-    <entry lang="bg" key="IDM_CONTACT">За връзка...</entry>
     <entry lang="bg" key="IDM_CREATE_HIDDEN_OS">Създаване на Скрита Операционна Система...</entry>
     <entry lang="bg" key="IDM_CREATE_RESCUE_DISK">Създаване на Спасителен Диск...</entry>
     <entry lang="bg" key="IDM_CREATE_VOLUME">Създаване на нов том...</entry>
@@ -263,7 +262,7 @@
     <entry lang="bg" key="IDM_VOLUME_EXPANDER">Разширител на томове</entry>
     <entry lang="bg" key="IDM_VOLUME_PROPERTIES">Свойства на тома</entry>
     <entry lang="bg" key="IDM_VOLUME_WIZARD">Помощник за създаване на томове</entry>
-    <entry lang="bg" key="IDM_WEBSITE">VeraCrypt уебстраница</entry>
+    <entry lang="bg" key="IDM_WEBSITE">Website</entry>
     <entry lang="bg" key="IDM_WIPE_CACHE">Заличаване на кешираните пароли</entry>
     <entry lang="bg" key="IDOK">OK</entry>
     <entry lang="bg" key="IDT_ACCELERATION_OPTIONS">Хардуерно ускорение</entry>

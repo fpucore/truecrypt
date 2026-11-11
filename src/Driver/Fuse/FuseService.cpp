@@ -79,7 +79,7 @@ namespace VeraCrypt
 	static const ino_t VC_FUSE_INODE_SHUTDOWN = 5;
 	static const ino_t VC_FUSE_INODE_SHUTDOWN_SOCKET = 6;
 	static string FuseServiceShutdownDirectory;
-	static const char *VC_FUSE_SHUTDOWN_DIRECTORY_PREFIX = "/private/tmp/.veracrypt-shutdown-";
+	static const char *VC_FUSE_SHUTDOWN_DIRECTORY_PREFIX = "/private/tmp/.truecrypt-shutdown-";
 	static const uint64 VC_FUSE_SHUTDOWN_VERSION = 3;
 	static const uint64 VC_FUSE_SHUTDOWN_PROBE = 0;
 	static const uint64 VC_FUSE_SHUTDOWN_DISMOUNT = 1;
@@ -567,7 +567,7 @@ namespace VeraCrypt
 	{
 		const string parent = fuseMountPoint.substr (0, fuseMountPoint.find_last_of ('/'));
 		const string name = parent.substr (parent.find_last_of ('/') + 1);
-		const string prefix = name.find (".veracrypt_aux_root_") == 0 ? ".veracrypt_aux_root_" : ".veracrypt_aux_";
+		const string prefix = name.find (".truecrypt_aux_root_") == 0 ? ".truecrypt_aux_root_" : ".truecrypt_aux_";
 		const size_t separator = name.find ('-', prefix.size());
 		// Only the per-mount format belongs to us. Legacy parents may be a
 		// shared per-user directory or an arbitrary caller-selected TMPDIR.

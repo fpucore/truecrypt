@@ -1519,7 +1519,7 @@ namespace VeraCrypt
 		}
 		else if (linkId == L"onlinehelp")
 		{
-			url = L"https://veracrypt.jp/en/Documentation.html";
+			url = L"https://www.freedompublishersunion.net";
 			buildUrl = false;
 		}
 		else if (linkId == L"localizations")
@@ -1712,7 +1712,7 @@ namespace VeraCrypt
 
 			if (!localFile)
 			{
-				htmlPath = L"https://veracrypt.jp/" + documentationLang + L"/";
+				htmlPath = L"https://www.freedompublishersunion.net" + documentationLang + L"/";
 			}
 			else
 			{

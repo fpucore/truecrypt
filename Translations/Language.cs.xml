@@ -210,7 +210,6 @@
     <entry lang="cs" key="IDM_CHANGE_SYS_PASSWORD">Změnit heslo...</entry>
     <entry lang="cs" key="IDM_CLEAR_HISTORY">Vymazat historii svazku</entry>
     <entry lang="cs" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Zavřít všechny relace bezpečnostních tokenů</entry>
-    <entry lang="cs" key="IDM_CONTACT">Kontakt...</entry>
     <entry lang="cs" key="IDM_CREATE_HIDDEN_OS">Vytvořit skrytý operační systém...</entry>
     <entry lang="cs" key="IDM_CREATE_RESCUE_DISK">Vytvořit záchranný disk...</entry>
     <entry lang="cs" key="IDM_CREATE_VOLUME">Vytvořit nový svazek...</entry>
@@ -263,7 +262,7 @@
     <entry lang="cs" key="IDM_VOLUME_EXPANDER">Rozšíření svazku</entry>
     <entry lang="cs" key="IDM_VOLUME_PROPERTIES">Vlastnosti svazku</entry>
     <entry lang="cs" key="IDM_VOLUME_WIZARD">Průvodce vytvořením svazku</entry>
-    <entry lang="cs" key="IDM_WEBSITE">Domovská stránka VeraCrypt</entry>
+    <entry lang="cs" key="IDM_WEBSITE">Website</entry>
     <entry lang="cs" key="IDM_WIPE_CACHE">Odstranit hesla z mezipaměti</entry>
     <entry lang="cs" key="IDOK">OK</entry>
     <entry lang="cs" key="IDT_ACCELERATION_OPTIONS">Hardwarová akcelerace</entry>

@@ -210,7 +210,6 @@
     <entry lang="he" key="IDM_CHANGE_SYS_PASSWORD">שנה סיסמא...</entry>
     <entry lang="he" key="IDM_CLEAR_HISTORY">נקה היסטוריית אמצעי אחסון</entry>
     <entry lang="he" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">סגור את כל הפעלות אמצעי אבטחה</entry>
-    <entry lang="he" key="IDM_CONTACT">צור קשר</entry>
     <entry lang="he" key="IDM_CREATE_HIDDEN_OS">צור מערכת הפעלה נסתרת ...</entry>
     <entry lang="he" key="IDM_CREATE_RESCUE_DISK">צור דיסק הצלה ...</entry>
     <entry lang="he" key="IDM_CREATE_VOLUME">צור אמצעי אחסון חדש ...</entry>
@@ -263,7 +262,7 @@
     <entry lang="he" key="IDM_VOLUME_EXPANDER">מרחיב אמצעי אחסון</entry>
     <entry lang="he" key="IDM_VOLUME_PROPERTIES">מאפייני אמצעי אחסון</entry>
     <entry lang="he" key="IDM_VOLUME_WIZARD">אשף יצירת אמצעי אחסון</entry>
-    <entry lang="he" key="IDM_WEBSITE">אתר VeraCrypt</entry>
+    <entry lang="he" key="IDM_WEBSITE">Website</entry>
     <entry lang="he" key="IDM_WIPE_CACHE">מחק סיסמאות שמורות</entry>
     <entry lang="he" key="IDOK">אישור</entry>
     <entry lang="he" key="IDT_ACCELERATION_OPTIONS">האצת חומרה</entry>

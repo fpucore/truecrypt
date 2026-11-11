@@ -753,7 +753,7 @@ namespace VeraCrypt
 		const string virtualDevice = volume.VirtualDevice;
 		const string mapperDirectory = "/dev/mapper/";
 
-		if (virtualDevice.find (mapperDirectory + "veracrypt") != 0)
+		if (virtualDevice.find (mapperDirectory + "truecrypt") != 0)
 			throw NotApplicable (SRC_POS);
 
 		// Top device first, then the volume's cascade layers <name>_0 ... <name>_<n-2>, any of which a partial dismount
@@ -831,7 +831,7 @@ namespace VeraCrypt
 		const string mapperDirectory = "/dev/mapper/";
 
 		DeviceMapperDevice device;
-		if (virtualDevice.find (mapperDirectory + "veracrypt") == 0
+		if (virtualDevice.find (mapperDirectory + "truecrypt") == 0
 			&& GetDeviceMapperOwnership (volume, virtualDevice.substr (mapperDirectory.size()), true, device) == DeviceOwnership::Owned)
 		{
 			return DevicePath (mapperDirectory + device.Name);
@@ -1182,7 +1182,7 @@ namespace VeraCrypt
 				}
 
 				stringstream nativeDevName;
-				nativeDevName << "veracrypt" << options.SlotNumber;
+				nativeDevName << "truecrypt" << options.SlotNumber;
 
 				if (nativeDevCount != cipherCount - 1)
 					nativeDevName << "_" << cipherCount - nativeDevCount - 2;

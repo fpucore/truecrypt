@@ -210,7 +210,6 @@
     <entry lang="th" key="IDM_CHANGE_SYS_PASSWORD">เปลี่ยนรหัสผ่าน...</entry>
     <entry lang="th" key="IDM_CLEAR_HISTORY">ล้างประวัติวอลุ่ม</entry>
     <entry lang="th" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">ปิดเซสชั่นโทเค็นทุกเซสชั่น</entry>
-    <entry lang="th" key="IDM_CONTACT">ติดต่อ</entry>
     <entry lang="th" key="IDM_CREATE_HIDDEN_OS">สร้างระบบปฏิบัติการซ่อน...</entry>
     <entry lang="th" key="IDM_CREATE_RESCUE_DISK">สร้างดิสก์กู้คืน...</entry>
     <entry lang="th" key="IDM_CREATE_VOLUME">สร้างวอลุ่มใหม่...</entry>
@@ -263,7 +262,7 @@
     <entry lang="th" key="IDM_VOLUME_EXPANDER">ขยายวอลุ่ม</entry>
     <entry lang="th" key="IDM_VOLUME_PROPERTIES">คุณสมบัติวอลุ่ม</entry>
     <entry lang="th" key="IDM_VOLUME_WIZARD">ตัวช่วยสร้างวอลุ่ม</entry>
-    <entry lang="th" key="IDM_WEBSITE">เว็บไซต์ VeraCrypt</entry>
+    <entry lang="th" key="IDM_WEBSITE">Website</entry>
     <entry lang="th" key="IDM_WIPE_CACHE">ล้างแคชที่เก็บรหัสผ่าน</entry>
     <entry lang="th" key="IDOK">ตกลง</entry>
     <entry lang="th" key="IDT_ACCELERATION_OPTIONS">เร่งความเร็วโดยใช้ฮาร์ดแวร์</entry>

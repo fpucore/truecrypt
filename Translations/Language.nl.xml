@@ -210,7 +210,6 @@
     <entry lang="nl" key="IDM_CHANGE_SYS_PASSWORD">Wachtwoord wijzigen...</entry>
     <entry lang="nl" key="IDM_CLEAR_HISTORY">Volumegeschiedenis verwijderen</entry>
     <entry lang="nl" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Alle beveiligingstoken-sessies afsluiten</entry>
-    <entry lang="nl" key="IDM_CONTACT">Contact</entry>
     <entry lang="nl" key="IDM_CREATE_HIDDEN_OS">Verborgen besturingssysteem aanmaken....</entry>
     <entry lang="nl" key="IDM_CREATE_RESCUE_DISK">Herstelschijf aanmaken...</entry>
     <entry lang="nl" key="IDM_CREATE_VOLUME">Nieuw volume aanmaken...</entry>
@@ -263,7 +262,7 @@
     <entry lang="nl" key="IDM_VOLUME_EXPANDER">Volume-uitbreider</entry>
     <entry lang="nl" key="IDM_VOLUME_PROPERTIES">Volume-eigenschappen</entry>
     <entry lang="nl" key="IDM_VOLUME_WIZARD">Wizard volume aanmaken</entry>
-    <entry lang="nl" key="IDM_WEBSITE">VeraCrypt-website</entry>
+    <entry lang="nl" key="IDM_WEBSITE">Website</entry>
     <entry lang="nl" key="IDM_WIPE_CACHE">Opgeslagen wachtwoorden wissen</entry>
     <entry lang="nl" key="IDOK">Ok</entry>
     <entry lang="nl" key="IDT_ACCELERATION_OPTIONS">Hardwareversnelling</entry>

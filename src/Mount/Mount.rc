@@ -764,13 +764,11 @@ BEGIN
         MENUITEM "Beginner's Tutorial",         IDM_ONLINE_TUTORIAL
         MENUITEM "Frequently Asked Questions",  IDM_FAQ
         MENUITEM SEPARATOR
-        MENUITEM "VeraCrypt Website",           IDM_WEBSITE
+        MENUITEM "Website",                     IDM_WEBSITE
         MENUITEM "Downloads",                   IDM_TC_DOWNLOADS
         MENUITEM "News",                        IDM_NEWS
         MENUITEM "Version History",             IDM_VERSION_HISTORY
         MENUITEM SEPARATOR
-        MENUITEM "Donate now...",               IDM_DONATE
-        MENUITEM "Contact",                     IDM_CONTACT
         MENUITEM "Legal Notices",               IDM_LICENSE
         MENUITEM "About",                       IDM_ABOUT
     END

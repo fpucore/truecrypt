@@ -46,7 +46,7 @@ namespace VeraCrypt
 		// including when sudo removes TMPDIR or a user selects a shared TMPDIR.
 		const bool elevated = geteuid() == 0;
 		const bool userAcl = elevated && userId != 0;
-		const string directoryTemplate = tempDirectory + (elevated ? "/.veracrypt_aux_root_" : "/.veracrypt_aux_")
+		const string directoryTemplate = tempDirectory + (elevated ? "/.truecrypt_aux_root_" : "/.truecrypt_aux_")
 			+ StringConverter::ToSingle (static_cast <uint64> (userId)) + "-XXXXXXXXXXXX";
 		uuid_t userUuid;
 		if (userAcl && mbr_uid_to_uuid (userId, userUuid) != 0)
@@ -103,7 +103,7 @@ namespace VeraCrypt
 		const string path = mount.MountPoint;
 		const string parent = path.substr (0, path.find_last_of ('/'));
 		const string name = parent.substr (parent.find_last_of ('/') + 1);
-		const string prefix = ".veracrypt_aux_root_";
+		const string prefix = ".truecrypt_aux_root_";
 		if (name.compare (0, prefix.size(), prefix) == 0)
 		{
 			const string id = name.substr (prefix.size(), name.find ('-', prefix.size()) - prefix.size());
@@ -555,15 +555,15 @@ namespace VeraCrypt
 			return envPrefix;
 
 		if (FilesystemPath ("/media").IsDirectory())
-			return "/media/veracrypt";
+			return "/media/truecrypt";
 #ifdef TC_LINUX
 		if (FilesystemPath ("/run/media").IsDirectory())
-			return "/run/media/veracrypt";
+			return "/run/media/truecrypt";
 #endif
 		if (FilesystemPath ("/mnt").IsDirectory())
-			return "/mnt/veracrypt";
+			return "/mnt/truecrypt";
 
-		return GetTempDirectory() + "/veracrypt_mnt";
+		return GetTempDirectory() + "/truecrypt_mnt";
 	}
 
 	uint32 CoreUnix::GetDeviceSectorSize (const DevicePath &devicePath) const

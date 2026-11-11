@@ -105,7 +105,6 @@
 #define IDM_TC_DOWNLOADS                40031
 #define IDM_NEWS                        40032
 #define IDM_BUGREPORT                   40033
-#define IDM_CONTACT                     40034
 #define IDM_VERSION_HISTORY             40035
 #define IDM_HOMEPAGE                    40036
 #define IDM_TEST_VECTORS                40037
@@ -117,7 +116,6 @@
 #define IDM_SET_DEFAULT_KEYFILES        40043
 #define IDM_ONLINE_TUTORIAL             40044
 #define IDM_ONLINE_HELP                 40045
-#define IDM_DONATIONS                   40046
 #define IDM_CHANGE_SYS_HEADER_KEY_DERIV_ALGO 40047
 #define IDM_CHANGE_SYS_PASSWORD         40048
 #define IDM_CREATE_RESCUE_DISK          40049

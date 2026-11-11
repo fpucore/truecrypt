@@ -64,7 +64,7 @@ namespace VeraCrypt
 		static const char *GetShutdownSocketPath () { return "/shutdown-socket"; }
 		static void RemoveAuxMountParent (const string &fuseMountPoint, int parentFd = -1);
 #endif
-		static string GetDeviceType () { return "veracrypt"; }
+		static string GetDeviceType () { return "truecrypt"; }
 		static gid_t GetGroupId () { return GroupId; }
 		static uid_t GetUserId () { return UserId; }
 		static uint64 GetSerialInstanceNumber () { return OpenVolumeInfo.SerialInstanceNumber; }

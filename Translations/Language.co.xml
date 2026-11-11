@@ -232,7 +232,6 @@ Information about Corsican localization:
 	    <entry lang="co" key="IDM_CHANGE_SYS_PASSWORD">Cambià a parolla d’intesa…</entry>
 	    <entry lang="co" key="IDM_CLEAR_HISTORY">Squassà a cronolugia di u vulume</entry>
 	    <entry lang="co" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Chjode tutte e sessioni di gettone di sicurità</entry>
-	    <entry lang="co" key="IDM_CONTACT">Cuntattu</entry>
 	    <entry lang="co" key="IDM_CREATE_HIDDEN_OS">Creà un sistema operatoriu piattatu…</entry>
 	    <entry lang="co" key="IDM_CREATE_RESCUE_DISK">Creà un discu di succorsu…</entry>
 	    <entry lang="co" key="IDM_CREATE_VOLUME">Creà un novu vulume…</entry>
@@ -285,7 +284,7 @@ Information about Corsican localization:
 	    <entry lang="co" key="IDM_VOLUME_EXPANDER">Estensore di vulume</entry>
 	    <entry lang="co" key="IDM_VOLUME_PROPERTIES">Pruprietà di u vulume</entry>
 	    <entry lang="co" key="IDM_VOLUME_WIZARD">Assistente di creazione di vulume</entry>
-	    <entry lang="co" key="IDM_WEBSITE">Situ web VeraCrypt</entry>
+	    <entry lang="co" key="IDM_WEBSITE">Website</entry>
 	    <entry lang="co" key="IDM_WIPE_CACHE">Nettà e parolle d’intesa da l’impiatta</entry>
 	    <entry lang="co" key="IDOK">Vai</entry>
 	    <entry lang="co" key="IDT_ACCELERATION_OPTIONS">Accelerazione materiale</entry>

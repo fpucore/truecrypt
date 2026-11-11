@@ -210,7 +210,6 @@
     <entry lang="ca" key="IDM_CHANGE_SYS_PASSWORD">Canviar contrasenya...</entry>
     <entry lang="ca" key="IDM_CLEAR_HISTORY">Esborrar l'historial de volums</entry>
     <entry lang="ca" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Tancar totes les sessions de testimonis de seguretat</entry>
-    <entry lang="ca" key="IDM_CONTACT">Contacte...</entry>
     <entry lang="ca" key="IDM_CREATE_HIDDEN_OS">Crear un sistema operatiu ocult...</entry>
     <entry lang="ca" key="IDM_CREATE_RESCUE_DISK">Crear un disc de recuperació...</entry>
     <entry lang="ca" key="IDM_CREATE_VOLUME">Crear un volum nou...</entry>
@@ -263,7 +262,7 @@
     <entry lang="ca" key="IDM_VOLUME_EXPANDER">Expansor de volum</entry>
     <entry lang="ca" key="IDM_VOLUME_PROPERTIES">Propietats del volum</entry>
     <entry lang="ca" key="IDM_VOLUME_WIZARD">Assistent de creació de volums</entry>
-    <entry lang="ca" key="IDM_WEBSITE">Lloc web de VeraCrypt</entry>
+    <entry lang="ca" key="IDM_WEBSITE">Website</entry>
     <entry lang="ca" key="IDM_WIPE_CACHE">Oblidar les contrasenyes guardades</entry>
     <entry lang="ca" key="IDOK">OK</entry>
     <entry lang="ca" key="IDT_ACCELERATION_OPTIONS">Acceleració per maquinari</entry>

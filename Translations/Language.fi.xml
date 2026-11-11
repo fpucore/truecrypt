@@ -210,7 +210,6 @@
     <entry lang="fi" key="IDM_CHANGE_SYS_PASSWORD">Muuta salasana...</entry>
     <entry lang="fi" key="IDM_CLEAR_HISTORY">Tyhjennä taltion historia</entry>
     <entry lang="fi" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Sulje kaikki turvallisuustunnisteiden istunnot</entry>
-    <entry lang="fi" key="IDM_CONTACT">Ota yhteyttä...</entry>
     <entry lang="fi" key="IDM_CREATE_HIDDEN_OS">Luo piilotettu käyttöjärjestelmä...</entry>
     <entry lang="fi" key="IDM_CREATE_RESCUE_DISK">Luo pelastuslevy...</entry>
     <entry lang="fi" key="IDM_CREATE_VOLUME">Luo uusi taltio...</entry>
@@ -263,7 +262,7 @@
     <entry lang="fi" key="IDM_VOLUME_EXPANDER">Taltion laajennustyökalu</entry>
     <entry lang="fi" key="IDM_VOLUME_PROPERTIES">Taltion ominaisuudet</entry>
     <entry lang="fi" key="IDM_VOLUME_WIZARD">Opastettu taltion luonti</entry>
-    <entry lang="fi" key="IDM_WEBSITE">VeraCryptin nettisivut</entry>
+    <entry lang="fi" key="IDM_WEBSITE">Website</entry>
     <entry lang="fi" key="IDM_WIPE_CACHE">Tyhjennä salasanat välimuistista</entry>
     <entry lang="fi" key="IDOK">OK</entry>
     <entry lang="fi" key="IDT_ACCELERATION_OPTIONS">Laitteistokiihdytys</entry>

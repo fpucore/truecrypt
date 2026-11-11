@@ -210,7 +210,6 @@
     <entry lang="id" key="IDM_CHANGE_SYS_PASSWORD">Ubah Kata Sandi...</entry>
     <entry lang="id" key="IDM_CLEAR_HISTORY">Hapus Riwayat Volume</entry>
     <entry lang="id" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Tutup Semua Sesi Token Keamanan</entry>
-    <entry lang="id" key="IDM_CONTACT">Kontak</entry>
     <entry lang="id" key="IDM_CREATE_HIDDEN_OS">Buat Sistem Operasi Tersembunyi...</entry>
     <entry lang="id" key="IDM_CREATE_RESCUE_DISK">Ciptakan Disk Penyelamatan...</entry>
     <entry lang="id" key="IDM_CREATE_VOLUME">Buat Volume Baru...</entry>
@@ -263,7 +262,7 @@
     <entry lang="id" key="IDM_VOLUME_EXPANDER">Pengekspan Volume</entry>
     <entry lang="id" key="IDM_VOLUME_PROPERTIES">Properti Volume</entry>
     <entry lang="id" key="IDM_VOLUME_WIZARD">Wahana Pandu Pembuatan Volume</entry>
-    <entry lang="id" key="IDM_WEBSITE">Situs Web VeraCrypt</entry>
+    <entry lang="id" key="IDM_WEBSITE">Website</entry>
     <entry lang="id" key="IDM_WIPE_CACHE">Bersihkan Kata Sandi yang Disinggahkan</entry>
     <entry lang="id" key="IDOK">Ok</entry>
     <entry lang="id" key="IDT_ACCELERATION_OPTIONS">Akselerasi Perangkat Keras</entry>

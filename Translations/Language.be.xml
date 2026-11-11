@@ -210,7 +210,6 @@
     <entry lang="be" key="IDM_CHANGE_SYS_PASSWORD">Змяніць пароль...</entry>
     <entry lang="be" key="IDM_CLEAR_HISTORY">Ачысціць гісторыю тамоў</entry>
     <entry lang="be" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Закрыць усе сеансы маркераў бяспекі</entry>
-    <entry lang="be" key="IDM_CONTACT">Сувязь з аўтарамі...</entry>
     <entry lang="be" key="IDM_CREATE_HIDDEN_OS">Стварыць схаваную аперацыйную сістэму...</entry>
     <entry lang="be" key="IDM_CREATE_RESCUE_DISK">Стварыць дыск узнаўлення...</entry>
     <entry lang="be" key="IDM_CREATE_VOLUME">Стварыць новы том...</entry>
@@ -263,7 +262,7 @@
     <entry lang="be" key="IDM_VOLUME_EXPANDER">Пашыральнік томаў</entry>
     <entry lang="be" key="IDM_VOLUME_PROPERTIES">Налады тома</entry>
     <entry lang="be" key="IDM_VOLUME_WIZARD">Майстар стварэння тамоў</entry>
-    <entry lang="be" key="IDM_WEBSITE">Сайт VeraCrypt</entry>
+    <entry lang="be" key="IDM_WEBSITE">Website</entry>
     <entry lang="be" key="IDM_WIPE_CACHE">Ачысціць кэш пароляў</entry>
     <entry lang="be" key="IDOK">OK</entry>
     <entry lang="be" key="IDT_ACCELERATION_OPTIONS">Апаратнае паскарэнне</entry>
